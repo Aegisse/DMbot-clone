@@ -1,0 +1,12 @@
+# Ignore everything in the save_data folder
+save_data/*
+
+# Ignore .DS_Store
+.DS_Store
+
+# Ignore the config file
+config.ini
+
+# But include the empty save_data folder
+!save_data/.gitkeep
+
